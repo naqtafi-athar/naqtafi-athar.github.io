@@ -53,7 +53,7 @@ window.PEOPLE = {
 
 window.POSTS = [
   {
-    title: "﴿والذين جاهدوا فينا﴾ ثلاثة مشايخ يشرحون الآية",
+    title: "﴿والذين جاهدوا فينا﴾ وقفات مع الآية",
     date: "2026-10-25",
     type: "مقطع",
     people: ["amjad", "sherif", "kamali"],
