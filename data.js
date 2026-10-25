@@ -27,6 +27,21 @@ window.PEOPLE = {
     role: "عرّفتنا بمقاطع الشيخ أمجد سمير",
     links: [{ label: "يوتيوب", url: "https://www.youtube.com/@a3waap" }],
   },
+  sherif: {
+    name: "أ. شريف علي",
+    role: "داعية • مصر",
+    links: [{ label: "يوتيوب", url: "https://www.youtube.com/@sherifali" }],
+  },
+  kamali: {
+    name: "الشيخ سعيد الكملي",
+    role: "عالم • المغرب",
+    links: [{ label: "يوتيوب", url: "https://www.youtube.com/@elkamali" }],
+  },
+  dosari: {
+    name: "الشيخ ياسر الدوسري",
+    role: "قارئ • إمام الحرم المكي",
+    links: [],
+  },
   thabet: {
     name: "محمد ثابت",
     role: "عرّفنا بمقطع «فأنت معجب بإيه؟»",
@@ -37,6 +52,27 @@ window.PEOPLE = {
 };
 
 window.POSTS = [
+  {
+    title: "﴿والذين جاهدوا فينا﴾ ثلاثة مشايخ يشرحون الآية",
+    date: "2026-10-25",
+    type: "مقطع",
+    people: ["amjad", "sherif", "kamali"],
+    source: "الآية: العنكبوت ٦٩",
+    links: [
+      { label: "أمجد سمير: «مؤمن و كافر» (٥٧:٢٥)", url: "https://www.youtube.com/watch?v=jQF4Zl7v0Sk&t=3445s" },
+      { label: "شريف علي: «مفاتيح الهداية (٢)» (٣١:٣٠)", url: "https://www.youtube.com/watch?v=_IiGAqcIJpI&t=1890s" },
+      { label: "شريف علي: «المجاهدة» (١:٤٥)", url: "https://www.youtube.com/watch?v=ho6DN1M3ZVA&t=105s" },
+      { label: "سعيد الكملي: «وإنّ الله لمع المحسنين» (١١:٢١)", url: "https://www.youtube.com/watch?v=6Xx6nX2IlWk&t=681s" },
+    ],
+  },
+  {
+    title: "سورة المؤمنون (٨٤–٩٢) مع الترجمة",
+    date: "2026-10-24",
+    type: "تلاوة",
+    people: ["dosari"],
+    source: "ترجمة معاني الآيات: Saheeh International",
+    links: [],
+  },
   {
     title: "فأنت معجب بإيه؟",
     date: "2026-10-23",
